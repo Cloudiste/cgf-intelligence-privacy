@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CGF Intelligence — Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --line: #e3e3e3; --accent: #1a73e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #ececec; --muted: #a0a0a0; --line: #2c2c2c; --accent: #8ab4f8; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; } h2 { font-size: 20px; margin: 32px 0 8px; border-top: 1px solid var(--line); padding-top: 24px; }
+  h3 { font-size: 16px; margin: 20px 0 4px; } p, li { color: var(--fg); } .muted { color: var(--muted); font-size: 14px; }
+  a { color: var(--accent); } ul { padding-left: 20px; } nav a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>CGF Intelligence — Privacy Policy</h1>
+  <p class="muted">Last updated: October 20, 2026 · <nav style="display:inline"><a href="#en">English</a><a href="#fr">Français</a></nav></p>
+
+  <section id="en">
+    <h2>English</h2>
+    <p>CGF Intelligence (“the application”) is a personal, local-first desktop application for macOS, built and used by
+      Rodolphe Chouteau, creator of the YouTube channel <a href="https://www.youtube.com/@CloudGamingFrance">Cloud Gaming France</a>,
+      to analyze that channel. It is not sold, distributed or offered to the public.</p>
+
+    <h3>YouTube API Services</h3>
+    <p>The application uses <strong>YouTube API Services</strong> (YouTube Data API, YouTube Analytics API and YouTube
+      Reporting API). By using the application, you agree to be bound by the
+      <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is described in the
+      <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+    <h3>What data is accessed</h3>
+    <ul>
+      <li>With your authorization (Google OAuth, <strong>read-only</strong> scopes <code>youtube.readonly</code>,
+        <code>yt-analytics.readonly</code> and, optionally, <code>yt-analytics-monetary.readonly</code>): your channel
+        information, video list and metadata, and the analytics reports of your own channel (views, watch time,
+        subscribers, traffic sources, audience retention, impressions and click-through rate, optional estimated revenue).</li>
+      <li>Public data only (no authorization of other users): public statistics, titles and thumbnails of other channels'
+        videos found through search or chosen as reference channels, and public comments on your own videos. The
+        application never reads or stores comment authors' names, pictures or identifiers.</li>
+    </ul>
+    <p>The application never uploads, edits, deletes, comments on or moderates anything on YouTube.</p>
+
+    <h3>How data is used, stored and shared</h3>
+    <ul>
+      <li><strong>Use:</strong> analytics and editorial planning for the channel owner only.</li>
+      <li><strong>Storage:</strong> locally, on the owner's computer only (SQLite database). OAuth tokens and keys are kept
+        in the macOS Keychain. No server operated by the developer receives any data.</li>
+      <li><strong>Retention:</strong> data from other channels and comment text are deleted after 30 days at the latest;
+        public statistics may be kept up to 36 months where the YouTube derived-metrics policy allows it. All YouTube
+        API data is deleted when access is revoked (immediately from the application, or automatically if revocation is
+        detected and not followed by a reconnection).</li>
+      <li><strong>Sharing:</strong> none. Data is not sold, rented or shared with third parties. The owner may manually
+        copy an analysis summary into an AI assistant of their choice; the application never sends it automatically.</li>
+      <li><strong>Cookies and tracking:</strong> the application uses no cookies, no advertising and no analytics trackers.</li>
+    </ul>
+
+    <h3>Your choices</h3>
+    <ul>
+      <li>Revoke the application's access at any time from the
+        <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>, or from the
+        application (Settings › YouTube connection › Revoke and delete YouTube data).</li>
+      <li>Deletion of all YouTube data stored by the application happens on revocation; you can also request it by contacting
+        the developer.</li>
+    </ul>
+
+    <h3>Contact</h3>
+    <p>Rodolphe Chouteau — <a href="mailto:rodolphe.c.pro@gmail.com">rodolphe.c.pro@gmail.com</a></p>
+  </section>
+
+  <section id="fr" lang="fr">
+    <h2>Français</h2>
+    <p>CGF Intelligence (« l'application ») est une application de bureau personnelle et locale pour macOS, développée et
+      utilisée par Rodolphe Chouteau, créateur de la chaîne YouTube
+      <a href="https://www.youtube.com/@CloudGamingFrance">Cloud Gaming France</a>, pour analyser cette chaîne. Elle n'est ni
+      vendue, ni distribuée, ni proposée au public.</p>
+
+    <h3>Services API YouTube</h3>
+    <p>L'application utilise les <strong>Services API YouTube</strong> (YouTube Data API, YouTube Analytics API et YouTube
+      Reporting API). En utilisant l'application, vous acceptez les
+      <a href="https://www.youtube.com/t/terms">Conditions d'utilisation de YouTube</a>. Le traitement de vos données par
+      Google est décrit dans les <a href="https://policies.google.com/privacy">Règles de confidentialité de Google</a>.</p>
+
+    <h3>Données consultées</h3>
+    <ul>
+      <li>Avec votre autorisation (OAuth Google, accès <strong>en lecture seule</strong> <code>youtube.readonly</code>,
+        <code>yt-analytics.readonly</code> et, en option, <code>yt-analytics-monetary.readonly</code>) : informations de votre
+        chaîne, liste et métadonnées des vidéos, rapports d'analyse de votre propre chaîne (vues, durée de visionnage, abonnés,
+        sources de trafic, rétention, impressions et taux de clics, revenus estimés en option).</li>
+      <li>Données publiques uniquement : statistiques publiques, titres et miniatures de vidéos d'autres chaînes trouvées par
+        recherche ou choisies comme référence, commentaires publics sous vos propres vidéos. L'application ne lit ni ne
+        conserve jamais le nom, la photo ou l'identifiant des auteurs de commentaires.</li>
+    </ul>
+    <p>L'application ne publie, ne modifie, ne supprime, ne commente et ne modère jamais rien sur YouTube.</p>
+
+    <h3>Utilisation, conservation et partage</h3>
+    <ul>
+      <li><strong>Utilisation</strong> : analyse et planification éditoriale pour le seul propriétaire de la chaîne.</li>
+      <li><strong>Conservation</strong> : uniquement sur l'ordinateur du propriétaire (base SQLite locale) ; jetons et clés dans
+        le trousseau macOS. Aucun serveur du développeur ne reçoit de données.</li>
+      <li><strong>Durées</strong> : données d'autres chaînes et texte des commentaires supprimés au plus tard après 30 jours ;
+        statistiques publiques conservées jusqu'à 36 mois lorsque la politique YouTube sur les métriques dérivées le permet.
+        Toutes les données issues des API YouTube sont supprimées en cas de révocation de l'accès.</li>
+      <li><strong>Partage</strong> : aucun. Les données ne sont ni vendues, ni louées, ni transmises à des tiers. Le propriétaire
+        peut copier lui-même un résumé d'analyse dans l'assistant d'IA de son choix ; l'application ne l'envoie jamais
+        automatiquement.</li>
+      <li><strong>Cookies et suivi</strong> : aucun cookie, aucune publicité, aucun traceur.</li>
+    </ul>
+
+    <h3>Vos choix</h3>
+    <ul>
+      <li>Révoquez l'accès à tout moment depuis la
+        <a href="https://security.google.com/settings/security/permissions">page des paramètres de sécurité Google</a>, ou depuis
+        l'application (Paramètres › Connexion YouTube › Révoquer et supprimer les données YouTube).</li>
+      <li>La suppression de toutes les données YouTube conservées a lieu à la révocation ; vous pouvez aussi la demander au
+        développeur.</li>
+    </ul>
+
+    <h3>Contact</h3>
+    <p>Rodolphe Chouteau — <a href="mailto:rodolphe.c.pro@gmail.com">rodolphe.c.pro@gmail.com</a></p>
+  </section>
+</main>
+</body>
+</html>
